@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset='utf8'>
+	<title>CT-Connect, conectando seu pós tratamento.</title>
+
+	<script language="JavaScript" type="text/javascript" src="jquery-2.1.4.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+	<script src="scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="linha">
+			<div class="col-2">
+				<img class="imagem" src="imagens/logo.jpg">
+			</div>
+			<header class="col-10">
+				<img class="logo-principal" src="imagens/logo-ct-udesc.jpg">
+			</header>
+		</div> 
+		<div class="linha">
+			<div class="col-12">
+				<div >
+					<ul class="nav nav-tabs">
+					  <li role="presentation" class="active"><a href="#">João</a></li>
+					  <li role="presentation" ><a href="#">Pedro</a></li>
+					  <li role="presentation"><a href="#">Antunes</a></li>
+					  <li role="presentation"><a href="#">+</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+		</div>
+		<section class="col-12-2">
+			<div class="classificacaoAux">
+				<form method="post" enctype="multipart/forma-data" action="salvar-cadastro.php">
+					<br>
+					<label class="label-cadastro"> Dados:  </label><br><br> 
+					<label class="label-cadastro"> Nome: </label><input type="text" name="nome" maxlength="15">  <br><br>
+					<label class="label-cadastro"> Login de acesso: </label><input type="text" name="login" maxlength="15">  <br><br>
+					<label class="label-cadastro"> Senha: </label><input type="password" name="senha" ><br><br>
+					<label class="label-cadastro"> Email: </label><input type="email" name="email" >  <br><br>
+					<label class="label-cadastro"> Telefone:</label><input type="number" name="telefone">  <br><br>
+					<label class="label-cadastro"> Endereço:  </label><br><br> 
+					<label class="label-cadastro"> Rua: </label><input type="text" name="rua" maxlength="30">  <br><br>
+					<label class="label-cadastro"> Numero: </label><input type="number" name="numero" maxlength="4">  <br><br>
+					<label class="label-cadastro"> CEP: </label><input type="number" name="cep" maxlength="8">  <br><br>
+						
+					<input type="submit" value="Enviar">
+					<input type="reset" value="restaurar"><br>
+				</form>
+			</div>
+		</section>
+		<header class="col-12">
+			<a href="cadastro.html"> Configurações </a>
+			<a href="creditos.html"> Créditos </a>
+			<a href="cadastro.html"> Sair </a><br>
+		</header>>
+		
+
+	</body>
+</html>
