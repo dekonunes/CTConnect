@@ -1,0 +1,161 @@
+body {
+	height: auto;
+}
+
+.col-1 {
+  width: 8.2%;
+}
+
+.col-2 {
+  width: 16.5%;
+}
+
+.col-3 {
+  width: 24.8%;
+}
+
+.col-4 {
+  width: 33.1%;
+}
+
+.col-5 {
+  width: 41.3%;
+}
+
+.col-6 {
+  width: 49.5%;
+}
+
+.col-7 {
+  width: 57.7%;
+}
+
+.col-8 {
+  width: 65.9%;
+}
+
+.col-9 {
+  width: 74.1%;
+}
+
+.col-10 {
+  width: 82.3%;
+}
+
+
+
+.col-11 {
+  width: 90.5%;
+}
+
+.col-12 {
+  width: 98.7%;
+}
+
+.col-12-2 {
+  border: 1px solid;
+  width: 98.7%;
+  height: 650px;
+}
+
+[class*=col-]{
+  float: left;
+}
+
+.linha{
+  clear:both;
+}
+
+.imagem {
+  max-width:100%;
+  max-height:100%;
+}
+
+.logo-principal {
+  max-width:100%;
+  max-height:100%;
+}
+
+.menu-lateral {
+  height: 100%;
+  text-align: center;
+}
+
+.logo-menu-lateral {
+	background-color: blue;
+  width: 100%;
+  height: 5%;
+  text-align: center;
+}
+
+table, td, th {
+  border: 1px solid;
+}
+
+header {
+    width:50%;
+    float: left;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.classificacao-1 {
+  background: blue;
+}
+
+.classificacao-2 {
+  background: green;
+}
+
+.classificacao-3 {
+  background: yellow;
+}
+
+.classificacao-4 {
+  background: orange;
+}
+
+.classificacao-5 {
+  background: red;
+}
+
+[class*=classificacao-]{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  float: right;
+}
+
+.geral-classificacao {
+  display: inline-block;
+}
+
+.geral-classificacaoAux {
+  text-align: center;
+}
+
+.classificacaoAux {
+  text-align: center;
+  
+}
+
+.classificacaoAux2 {
+  display: inline-block;
+  
+}
+
+.label-cadastro {
+  width: 200px;
+  display: inline-block;
+}
