@@ -87,7 +87,19 @@ body {
 }
 
 table, td, th {
-  border: 1px solid;
+
+}
+
+.table-DadosD-DQ {
+    width:100%;
+    height:100%;
+    margin: 0 auto; /* or margin: 0 auto 0 auto */
+    
+}
+
+.dados-DQ-div {
+  width: 40px;
+  height: 40px;
 }
 
 header {
@@ -106,6 +118,26 @@ a:hover {
 
 a:active {
     text-decoration: underline;
+}
+
+.classificacao-1-desativado {
+  background: #5E799A;
+}
+
+.classificacao-2-desativado {
+  background: #71A971;
+}
+
+.classificacao-3-desativado {
+  background: #FFFDAE;
+}
+
+.classificacao-4-desativado {
+  background: #D3B08D;
+}
+
+.classificacao-5-desativado {
+  background: pink;
 }
 
 .classificacao-1 {
@@ -127,6 +159,8 @@ a:active {
 .classificacao-5 {
   background: red;
 }
+
+
 
 [class*=classificacao-]{
   border-radius: 50%;

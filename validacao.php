@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $senha = (isset($_POST['senha'])) ? $_POST['senha'] : '';
   if (validaUsuario($usuario, $senha) == 1) {
   echo "Bem vindo";
-  $url = 'tela-inicial.html';
+  $url = 'tela-inicial.php';
   echo'<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$url.'">';
   } else {
   echo "Usuario invalido";
